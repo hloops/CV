@@ -1,15 +1,98 @@
 body {
-    background-color: #EFF5F5;
+    position: relative;
+    margin: 0%;
+
 }
-hr {
-    border: 5px dotted #eb6440;
-    border-style: none none dotted; 
-    color: #EFF5F5; 
-    width: 8%;
+.nav-bar {
+    position: fixed;
+    background-color: #c4e7c1;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+    z-index: 100;
 }
-h1 {
-    color: #497174;
+.nav-bar-buttons {
+    position: relative;
+    top: 3.5vh;
+    left: auto;
+    right: auto;
+    bottom: 3.5vh;
+    font-family: 'Poppins', sans-serif;
 }
-h3 {
-    color:#497174;
+.home-button {
+
+    position: relative;
+    padding: 2vh 3vh 2vh 3vh;
+    
+    
 }
+.works-button {
+
+    position: relative;
+    padding: 2vh 3vh 2vh 3vh;
+}
+.about-button {
+    position: relative;
+    padding: 2vh 3vh 2vh 3vh;
+
+}
+.fold {
+    position: absolute;
+    top: 10vh;
+    background-color: #C1E7E1;
+    margin-top: 0px;
+    text-align: center;
+    height: 90vh;
+    width: 100vw;
+}
+.title {
+
+    color: #874C62;
+    font-size: 2.5em;
+    font-family: 'Gloria Hallelujah';
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    position: relative;
+    top: 10vh;
+}
+.paragraphTitle {
+
+    color: #874C62;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 7vh;
+}
+
+.middle {
+    
+    background-color: #F2D388;
+    height: 20vh;
+    width: 100vw;
+    position: absolute;
+    top: 100vh;
+}
+.bottom {
+
+    background-color: #C98474;
+    height: 20vh;
+    width: 100vw;
+    position: absolute;
+    top: 120vh;
+}
+
+/*
+tagSelector {
+    h1, p, hr...
+}
+.class {
+    multiple elements
+}
+#id{
+    unique elements
+}*/
+
+  
