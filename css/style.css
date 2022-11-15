@@ -1,87 +1,95 @@
-body {
-    position: relative;
-    margin: 0%;
-
-}
-.nav-bar {
-    position: fixed;
-    background-color: #c4e7c1;
+.navbar {
+    background-color: #2E0249;
     height: 10vh;
-    width: 100%;
-    text-align: center;
-    overflow: auto;
-    z-index: 100;
+
+    padding-right: 4vw;
+    padding-left: 4vw;
 }
-.nav-bar-buttons {
+.navbar-nav {
     position: relative;
-    top: 3.5vh;
-    left: auto;
-    right: auto;
-    bottom: 3.5vh;
+
+}
+.nav-link {
+    color: #A91079;
+    font-weight: bold;
     font-family: 'Poppins', sans-serif;
+    margin: 2vw;
 }
-.home-button {
-
-    position: relative;
-    padding: 2vh 3vh 2vh 3vh;
-    
-    
-}
-.works-button {
-
-    position: relative;
-    padding: 2vh 3vh 2vh 3vh;
-}
-.about-button {
-    position: relative;
-    padding: 2vh 3vh 2vh 3vh;
+.navbar-collapse {
+    align-items: center;
+    justify-content: end;
 
 }
 .fold {
+
+    padding-top: 20vh;
+    padding-bottom: 20vh; 
     position: absolute;
     top: 10vh;
-    background-color: #C1E7E1;
+    background-color: #2E0249;
     margin-top: 0px;
-    text-align: center;
     height: 90vh;
-    width: 100vw;
+    width: 100%;
+    /* justify-content: center;
+    text-size-adjust: auto; */
 }
-.title {
+.fold-computer {
 
-    color: #874C62;
-    font-size: 2.5em;
-    font-family: 'Gloria Hallelujah';
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
+    width: 30%;
+    max-width: 400px;
+    min-width: 250px;
+    margin: auto 40px auto calc(50% - 21.019vw);
+}
+.fold-text {
+    color: #b9b9b9;
+    text-align: left;
+    margin: auto 20% auto calc(50% - 21.019vw);
     position: relative;
-    top: 10vh;
+    margin: 0%;
+    top: calc(50% - 82px);
 }
-.paragraphTitle {
-
-    color: #874C62;
-    font-size: 1.5em;
-    font-family: 'Poppins', sans-serif;
+.title1{
+  
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
     position: relative;
-    top: 7vh;
-}
+    margin: 0;
 
+}
+.name{
+    color:#A91079;
+}
+.title2 {
+
+    color: #979797;
+    font-size: 32px;
+    font-family: 'Sono', sans-serif;
+    font-weight: normal;
+    position: relative;
+    margin: 0;
+}
 .middle {
     
-    background-color: #F2D388;
-    height: 20vh;
-    width: 100vw;
+    background-color: #570A57;
+    height: 90vh;
+    width: 100%;
     position: absolute;
     top: 100vh;
+}
+.projects{
+    height: 100vh;
+    width: 100%;
+    background-color: #570A57;
+    position: absolute;
+    top:190vh;
 }
 .bottom {
 
     background-color: #C98474;
     height: 20vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
-    top: 120vh;
+    top: 290vh;
 }
 
 /*
