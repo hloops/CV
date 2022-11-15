@@ -10,7 +10,7 @@
 
 }
 .nav-link {
-    color: #A91079;
+    color: #FEE8DA;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     margin: 2vw;
@@ -41,7 +41,7 @@
     margin: auto 40px auto calc(50% - 21.019vw);
 }
 .fold-text {
-    color: #b9b9b9;
+    color: #FFF3EB;
     text-align: left;
     margin: auto 20% auto calc(50% - 21.019vw);
     position: relative;
@@ -61,7 +61,7 @@
 }
 .title2 {
 
-    color: #979797;
+    color: #FEE8DA;
     font-size: 32px;
     font-family: 'Sono', sans-serif;
     font-weight: normal;
@@ -75,6 +75,44 @@
     width: 100%;
     position: absolute;
     top: 100vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+.aboutme {
+    width: 80%;
+    position: relative;
+    height: fit-content;
+    padding: 15px;
+
+}
+.profile-img {
+    position: relative;
+    width: 25%;
+    max-width: 285px;
+    float: left;
+}
+.description-aboutme {
+    
+    color: #FFF3EB;
+    position: relative;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 7vh;
+    margin-left: calc(4vw + 265px);
+    width: 60%;
+
+}
+.paragraph-aboutme {
+
+    color: #FEE8DA;
+    font-size: 16px;
+    font-family: 'Sono', sans-serif;
+    font-weight: 600;
+    margin-left: calc(4vw + 265px);
+    width: 60%;
 }
 .projects{
     height: 100vh;
