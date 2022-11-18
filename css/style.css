@@ -1,6 +1,16 @@
+ul {
+    padding-left: 0;
+}
+li {
+    color: #FEE8DA;
+    font-size: 14px;
+    font-family: 'Sono', sans-serif;
+    list-style-type: none;
+    list-style-position: inside;
+}
 .navbar {
     background-color: #2E0249;
-    height: 10vh;
+    height: 8vh;
 
     padding-right: 4vw;
     padding-left: 4vw;
@@ -10,7 +20,7 @@
 
 }
 .nav-link {
-    color: #FEE8DA;
+    color: #E5009E;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     margin: 2vw;
@@ -22,39 +32,37 @@
 }
 .fold {
 
-    padding-top: 20vh;
-    padding-bottom: 20vh; 
     position: absolute;
-    top: 10vh;
+    top: 8vh;
     background-color: #2E0249;
-    margin-top: 0px;
-    height: 90vh;
+    height: 92vh;
     width: 100%;
-    /* justify-content: center;
-    text-size-adjust: auto; */
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+
 }
 .fold-computer {
 
-    width: 30%;
-    max-width: 400px;
-    min-width: 250px;
-    margin: auto 40px auto calc(50% - 21.019vw);
+    display: block;
+    max-width: 395px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: auto 5px auto auto ;
+
 }
 .fold-text {
+
+    position: relative;
     color: #FFF3EB;
     text-align: left;
-    margin: auto 20% auto calc(50% - 21.019vw);
-    position: relative;
-    margin: 0%;
-    top: calc(50% - 82px);
+    margin: 45vh auto auto 25px ;
+
 }
 .title1{
-  
     font-size: 80px;
     font-family: 'Raleway', sans-serif;
-    position: relative;
-    margin: 0;
-
 }
 .name{
     color:#A91079;
@@ -65,62 +73,91 @@
     font-size: 32px;
     font-family: 'Sono', sans-serif;
     font-weight: normal;
-    position: relative;
-    margin: 0;
-}
-.middle {
-    
-    background-color: #570A57;
-    height: 90vh;
     width: 100%;
-    position: absolute;
-    top: 100vh;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 2vh;
-    display: flex;
-    justify-content: center;
-}
-.aboutme {
-    width: 80%;
-    position: relative;
-    height: fit-content;
-    padding: 15px;
 
 }
+
+.middle {
+    
+
+    position: absolute;
+    top: 100vh;
+    background-color: #570A57;
+    height: fit-content;
+    width: 100%;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 5vh;
+
+}
+.title-ruler {
+    color: #E5009E;
+    width: auto;
+    height: 1px;
+    border-style: solid;
+    background-color: #E5009E;
+
+
+}
+.title-aboutme {
+    width: auto;
+    color:#E5009E;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: start;
+    font-family: 'Raleway', sans-serif;
+}
+.title-skills {
+    width: auto;
+    color:#E5009E;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: end;
+    font-family: 'Raleway', sans-serif;
+}
+.title-works {
+    width: auto;
+    color:#E5009E;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: start;
+    font-family: 'Raleway', sans-serif;
+}
+#list-title{
+    color: #E5009E;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
 .profile-img {
-    position: relative;
-    width: 25%;
-    max-width: 285px;
-    float: left;
+
+    max-width: 100%;
+    max-height: 300px;
+    min-width: 200px;
+
+}
+#text-div {
+    margin: auto 0 ;
 }
 .description-aboutme {
     
-    color: #FFF3EB;
-    position: relative;
-    font-size: 32px;
+    color:#FFF3EB;
+    font-size: 24px;
     font-family: 'Raleway', sans-serif;
-    margin-top: 7vh;
-    margin-left: calc(4vw + 265px);
-    width: 60%;
-
 }
 .paragraph-aboutme {
 
     color: #FEE8DA;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Sono', sans-serif;
     font-weight: 600;
-    margin-left: calc(4vw + 265px);
-    width: 60%;
 }
-.projects{
+/*.projects{
     height: 100vh;
     width: 100%;
     background-color: #570A57;
     position: absolute;
     top:190vh;
-}
+}*/
 .bottom {
 
     background-color: #C98474;
